@@ -225,9 +225,14 @@
     /* The Middle Part Where the Slogo and the big title is : */
     .main_p {
         background: url(./Images/Main\ Background\ .jpeg);
-        background-size: cover;
-        width: 120.45rem;
+        background-position: center center;
+        background-size: 100% auto ;
+        width: 100%;
         height: 52.15rem;
+        background-repeat: no-repeat;
+     
+
+   
     }
 
     #title {
