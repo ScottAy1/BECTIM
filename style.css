@@ -293,6 +293,101 @@
     }
 
 }
+
+/* HD Resolution Test Media Query */
+@media all and (max-width: 1366px) {
+
+    /* the White bar over the Tages and The Main Title */
+    .navbar {
+        padding-bottom: 2.5rem;
+        padding-top: 0.4rem;
+        padding-right:30rem ;
+        background-color: rgb(238, 247, 255) !important;
+    }
+
+    /* The Task List */
+    #nav_tags {
+        display: flex;
+        flex-direction: row;
+        color: rgb(0, 32, 48);
+        margin-left: 49rem;
+        margin-top: -3rem;
+        width: 30Rem;
+        justify-content: space-around;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* The BECTIM LOGO */
+    #maintitle {
+        color: rgb(0, 32, 48);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2rem;
+        margin-right: 73rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+
+    }
+
+
+    /* The Middle Part Where the Slogo and the big title is : */
+    .main_p {
+        background: url(./Images/Main\ Background\ .jpeg);
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 522px;
+        background-repeat: no-repeat;
+    }
+
+    #title {
+        font-size: 2rem;
+        font-weight: 700;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        color: rgb(255, 255, 255);
+        padding-bottom: 2rem;
+
+    }
+
+    #slogo {
+        font-size: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 2rem;
+        margin-right: 6rem;
+        color: rgb(255, 255, 255);
+        padding-bottom: 2rem;
+
+
+    }
+
+    #btn-info {
+        margin-left: 2rem;
+        margin-top: -0.5rem;
+        pointer-events: painted;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 6px;
+        padding-right: 6px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        border-color: rgba(255, 255, 255, 0.831);
+        font-size: 1.5rem;
+        border-width: 3px;
+        border-style: solid;
+
+    }
+
+    #arrowdown {
+        display: flex;
+        margin-left: 2.5rem;
+        margin-top: 1.5rem;
+    }
+
+}
+
 /* Phone Resolution Test Media Query */
 @media all and (max-width: 768px) {
 
@@ -386,5 +481,3 @@
     }
 
 }
-
-/* Phone Resolution Test Media Query */
