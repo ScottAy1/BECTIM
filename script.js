@@ -1,7 +1,3 @@
 
-const cpt = document.getElementsByClassName("btn1");
+const newprompet = document.getElementsByClassName("btn-info");
 
-function callback() {
-    document.getElementsByClassName("btn1").Innertext="Resident evil";
-}
-document.addEventListener("Click", callback);
